@@ -15,8 +15,9 @@ label {
   position: relative;
 }
 
-input {
+.form-check-input {
   border: 2px solid $primary-70;
+  box-shadow: none;
 
   &:hover::after {
     content: " ";
@@ -39,6 +40,9 @@ input {
     border-color: $primary-70;
     outline: 1px solid white;
 	box-shadow: 0 0 0 3px $primary-70;
+  }
+  &:active {
+	filter: none;
   }
 }
 

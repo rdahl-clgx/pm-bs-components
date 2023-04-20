@@ -9,6 +9,7 @@ a {
   align-items: center;
   .page-item .page-link {
     border-radius: 8px;
+	box-shadow: none;
 
     &:hover {
       background-color: $transparent-light-10;
@@ -16,7 +17,6 @@ a {
 
     &:focus {
       background-color: #fff;
-      // outline: 2px solid $primary-70;
 	  box-shadow: 0 0 0 2px $primary-70;
     }
   }
