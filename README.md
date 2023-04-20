@@ -20,7 +20,7 @@ In the `src/app/components` folder there are `checkbox`,  `modal`, `pagination`,
 > This should give you exactly what you need ore get you pretty close. 
 
 
-![Alt text](assets/pmbs-components.png?raw=true "Title")
+![Alt text](https://raw.githubusercontent.com/rdahl-clgx/pm-bs-components/main/src/assets/pmbs-components.png "Title")
 
 
 
