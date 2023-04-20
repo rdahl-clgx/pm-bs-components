@@ -20,7 +20,7 @@ In the `src/app/components` folder there are `checkbox`,  `modal`, `pagination`,
 > This should give you exactly what you need ore get you pretty close. 
 
 
-![Alt text](relative%20path/src/assets/pmbs-components.png?raw=true "Title")
+![Alt text](assets/pmbs-components.png?raw=true "Title")
 
 
 
