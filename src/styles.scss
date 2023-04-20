@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Sans+Pro:wght@300;400;600&display=swap");
+
+$poppins-light: 400;
+$poppins-semibold: 500;
+
+$gray-30: #c6c6c6;
+$gray-80: #393939;
+
+$primary-70: #1e4f7b;
+
+$transparent-light-10: hsla(0, 0%, 22%, 0.1);
+
+body {
+  font-family: Poppins;
+}

@@ -1,0 +1,51 @@
+@import "src/styles";
+
+input,
+.form-check-label {
+  cursor: pointer;
+}
+
+label {
+  font-size: 14px;
+  line-height: 20px;
+  color: $gray-80;
+}
+
+.form-check {
+  position: relative;
+}
+
+input {
+  border: 2px solid $primary-70;
+
+  &:hover::after {
+    content: " ";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #393939;
+    opacity: 0.1;
+    top: -2px;
+    left: -6px;
+  }
+
+  &:checked {
+    background-color: $primary-70;
+    border-color: $primary-70;
+  }
+  &:focus {
+    border-color: $primary-70;
+    outline: 2px solid $primary-70;
+    outline-offset: 1px;
+  }
+}
+
+.check-box-label {
+  font-weight: $poppins-semibold;
+  padding: 2px 0px;
+}
+
+.form-check-label {
+  font-weight: $poppins-light;
+}

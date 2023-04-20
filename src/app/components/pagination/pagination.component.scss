@@ -1,0 +1,49 @@
+@import "src/styles";
+
+a {
+  border: none;
+  padding: 7px;
+}
+
+.pagination {
+  align-items: center;
+}
+
+.page-item .page-link {
+  border-radius: 8px;
+
+  &:hover {
+    background-color: $transparent-light-10;
+  }
+
+  &:focus {
+    background-color: #fff;
+    outline: 2px solid $primary-70;
+  }
+}
+
+label {
+  pointer-events: none;
+}
+
+.ph-bold {
+  font-size: 20px;
+  color: $primary-70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  width: 68px;
+  border-color: $transparent-light-10;
+}
+
+input:hover {
+  background: $transparent-light-10;
+}
+
+input:focus {
+  border-color: $primary-70;
+  outline: 1px solid $primary-70;
+}
