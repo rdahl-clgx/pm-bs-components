@@ -16,13 +16,12 @@
 
 .form-control:focus {
   border-color: $primary-70;
-  // outline: 2px solid $primary-70;
   box-shadow: 0 0 0 1px $primary-70;
 }
 
 .ph-magnifying-glass {
   position: absolute;
-  top: 8px;
+  top: 9px;
   left: 16px;
   font-weight: bold;
   font-size: 20px;
