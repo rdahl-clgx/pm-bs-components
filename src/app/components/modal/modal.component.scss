@@ -53,6 +53,10 @@
   & > i {
     font-size: 14px;
   }
+  &:focus {
+	border: solid 1px white;
+	box-shadow: 0 0 0 2px $primary-70;
+  }
 }
 
 button[aria-label="Close"] {
@@ -82,6 +86,12 @@ button[aria-label="Close"] {
   --bs-btn-bg: #fff;
   --bs-btn-border-color: #393939;
   font-weight: $poppins-semibold;
+
+  &:focus {
+	border: solid 1px #393939;
+	outline: 1px solid white;
+	box-shadow: 0 0 0 3px $primary-70;
+  }
 }
 
 .btn-tertiary {
